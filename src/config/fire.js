@@ -1,14 +1,14 @@
-import firebase from "firebase";
+import firebase from 'firebase';
 
-  var firebaseConfig = {
-    apiKey: "AIzaSyDJNQVErhHjPERbd1UV1K0rqgjB2NmlIe0",
-    authDomain: "proyecto-8767e.firebaseapp.com",
-    databaseURL: "https://proyecto-8767e.firebaseio.com",
-    projectId: "proyecto-8767e",
-    storageBucket: "proyecto-8767e.appspot.com",
-    messagingSenderId: "451377521598",
-    appId: "1:451377521598:web:d9d9fa2d3052890a4ccfef"
-  };
-  // Initialize Firebase
-  const fire = firebase.initializeApp(firebaseConfig);
-  export default fire;
+var firebaseConfig = {
+  apiKey: 'AIzaSyAKl4l3fgiiWRrbxqIbCK_boJYYn2iYjm8',
+  authDomain: 'portfolio-react-cd413.firebaseapp.com',
+  databaseURL: 'https://portfolio-react-cd413.firebaseio.com',
+  projectId: 'portfolio-react-cd413',
+  storageBucket: 'portfolio-react-cd413.appspot.com',
+  messagingSenderId: '452492282975',
+  appId: '1:452492282975:web:077fccc8242da0646d5fea'
+};
+// Initialize Firebase
+const fire = firebase.initializeApp(firebaseConfig);
+export default fire;

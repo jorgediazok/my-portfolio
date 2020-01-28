@@ -4,55 +4,49 @@ import { Form } from 'react-bootstrap';
 import firebase from '../config/fire';
 
 class Formulario extends Component {
-  constructor(props) {
-    super(props);
-    console.log(props);
-    this.state = {
-      name: '',
-      email: '',
-      country: '',
-      phone: '',
-      message: ''
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+  state = {
+    name: '',
+    email: '',
+    country: '',
+    phone: '',
+    message: ''
+  };
 
-  handleChange(e) {
-    let name = e.target.name;
-    let email = e.target.email;
-    let country = e.target.country;
-    let phone = e.target.phone;
-    let message = e.target.message;
-
+  handleNameChange = e => {
     this.setState({
-      [name]: e.target.value,
-      [email]: e.target.value,
-      [country]: e.target.value,
-      [phone]: e.target.value,
-      [message]: e.target.value
+      name: e.target.value
     });
+  };
 
-    console.log(this);
-  }
+  handleEmailChange = e => {
+    this.setState({
+      email: e.target.value
+    });
+  };
 
-  handleSubmit(e) {
+  handleCountryChange = e => {
+    this.setState({
+      country: e.target.value
+    });
+  };
+
+  handlePhoneChange = e => {
+    this.setState({
+      phone: e.target.value
+    });
+  };
+
+  handleTextChange = e => {
+    this.setState({
+      message: e.target.value
+    });
+  };
+
+  handleSubmit = e => {
     e.preventDefault();
-    const inputRef = firebase
-      .database()
-      .ref()
-      .child('object')
-      .child('inputData');
-    inputRef.on('value', snapshot => {
-      this.setState({
-        name: snapshot.val(),
-        email: snapshot.val(),
-        country: snapshot.val(),
-        phone: snapshot.val(),
-        message: snapshot.val()
-      });
-    });
-  }
+    const db = firebase.database().ref('usuario');
+    db.set(this.state).then(resultado => console.log(resultado));
+  };
 
   render() {
     return (
@@ -71,7 +65,7 @@ class Formulario extends Component {
                 <Form.Control
                   type="text"
                   placeholder="Name and Lastname"
-                  onChange={this.handleChange}
+                  onChange={this.handleNameChange}
                 />
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlInput2">
@@ -79,7 +73,7 @@ class Formulario extends Component {
                 <Form.Control
                   type="email"
                   placeholder="name@example.com"
-                  onChange={this.handleChange}
+                  onChange={this.handleEmailChange}
                 />
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlInput3">
@@ -87,7 +81,7 @@ class Formulario extends Component {
                 <Form.Control
                   type="text"
                   placeholder="Where do you live?"
-                  onChange={this.handleChange}
+                  onChange={this.handleCountryChange}
                 />
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlInput4">
@@ -95,7 +89,7 @@ class Formulario extends Component {
                 <Form.Control
                   type="phone"
                   placeholder="What is your number?"
-                  onChange={this.handleChange}
+                  onChange={this.handlePhoneChange}
                 />
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlTextarea1">
@@ -105,19 +99,19 @@ class Formulario extends Component {
                 <Form.Control
                   as="textarea"
                   rows="3"
-                  onChange={this.handleChange}
+                  onChange={this.handleTextChange}
                 />
               </Form.Group>
+              <Button
+                raised
+                accent
+                ripple
+                type="submit"
+                style={{ float: 'right', marginTop: '15px' }}
+              >
+                Submit
+              </Button>
             </Form>
-            <Button
-              raised
-              accent
-              ripple
-              type="submit"
-              style={{ float: 'right', marginTop: '15px' }}
-            >
-              Submit
-            </Button>
           </Cell>
         </Grid>
       </div>
