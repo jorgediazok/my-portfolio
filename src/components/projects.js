@@ -87,7 +87,16 @@ class Projects extends Component {
               ToDo List - Proyecto realizado enteramente con React y Firebase.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/jorgediazok/todo-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', color: 'blue' }}
+                >
+                  Github
+                </a>
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button>
             </CardActions>

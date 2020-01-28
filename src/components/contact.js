@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Formulario from './form';
 
 class Contact extends Component {
   render() {
@@ -66,6 +67,7 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
+        <Formulario />
       </div>
     );
   }
