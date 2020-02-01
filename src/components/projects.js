@@ -60,7 +60,8 @@ class Projects extends Component {
               React Project #2
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              React Social - Proyecto realizado enteramente con React y
+              Firebase.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -84,7 +85,8 @@ class Projects extends Component {
               React Project #3
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              Alberto Chatbot - Proyecto realizado enteramente con React y
+              MongoDB.
             </CardText>
             <CardActions border>
               <Button colored>
@@ -113,16 +115,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'grey',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://cdn.worldvectorlogo.com/logos/angular-icon.svg) center / cover'
               }}
             >
-              React Project #1
+              Angular Project #1
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con Angular y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -137,16 +139,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'grey',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://cdn.worldvectorlogo.com/logos/angular-icon.svg) center / cover'
               }}
             >
-              React Project #2
+              Angular Project #2
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con Angular y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -161,16 +163,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'grey',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://cdn.worldvectorlogo.com/logos/angular-icon.svg) center / cover'
               }}
             >
-              React Project #3
+              Angular Project #3
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con Angular y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>
@@ -199,16 +201,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#4d4dff',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://www.stickpng.com/assets/images/58482acecef1014c0b5e4a1e.png) center / cover'
               }}
             >
-              React Project #1
+              VueJS Project #1
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con VueJS y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -223,16 +225,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#4d4dff',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://www.stickpng.com/assets/images/58482acecef1014c0b5e4a1e.png) center / cover'
               }}
             >
-              React Project #2
+              VueJS Project #2
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con VueJS y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -247,16 +249,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#4d4dff ',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://www.stickpng.com/assets/images/58482acecef1014c0b5e4a1e.png) center / cover'
               }}
             >
-              React Project #3
+              VueJS Project #3
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con VueJS y Firebase.
             </CardText>
             <CardActions border>
               <Button colored>
@@ -285,16 +287,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#662200',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1zVY7B77VnDrviTTriMeaXMt834xntk9m2ljKoExuw2LFQv58w&s) center / cover'
               }}
             >
-              React Project #1
+              MongoDB Project #1
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con MongoDB.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -309,16 +311,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#662200',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1zVY7B77VnDrviTTriMeaXMt834xntk9m2ljKoExuw2LFQv58w&s) center / cover'
               }}
             >
-              React Project #2
+              MongoDB Project #2
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con MongoDB.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -333,16 +335,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: '#662200',
                 height: '176px',
                 background:
-                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+                  'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1zVY7B77VnDrviTTriMeaXMt834xntk9m2ljKoExuw2LFQv58w&s) center / cover'
               }}
             >
-              React Project #3
+              MongoDB Project #3
             </CardTitle>
             <CardText>
-              ToDo List - Proyecto realizado enteramente con React y Firebase.
+              ToDo List - Proyecto realizado enteramente con MongoDB.
             </CardText>
             <CardActions border>
               <Button colored>
