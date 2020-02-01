@@ -3,6 +3,13 @@ import { Grid, Cell, Button } from 'react-mdl';
 import { Form } from 'react-bootstrap';
 import firebase from '../config/fire';
 
+import {
+  NotificationContainer,
+  NotificationManager
+} from 'react-notifications';
+
+import 'react-notifications/lib/notifications.css';
+
 class Formulario extends Component {
   state = {
     name: '',
@@ -42,8 +49,35 @@ class Formulario extends Component {
     });
   };
 
+  createNotification = type => {
+    return () => {
+      switch (type) {
+        case 'info':
+          NotificationManager.info('Info message');
+          break;
+        case 'success':
+          NotificationManager.success('Success ', 'Thx for the email dude');
+          break;
+        case 'warning':
+          NotificationManager.warning(
+            'Warning message',
+            'Close after 3000ms',
+            3000
+          );
+          break;
+        case 'error':
+          NotificationManager.error('Error message', 'Click me!', 5000, () => {
+            alert('callback');
+          });
+          break;
+      }
+    };
+  };
+
   handleSubmit = e => {
     e.preventDefault();
+    e.target.reset();
+
     const db = firebase.database().ref('usuario');
     db.set(this.state).then(resultado => console.log(resultado));
   };
@@ -52,7 +86,7 @@ class Formulario extends Component {
     return (
       <div className="formulario">
         <h3 style={{ textAlign: 'center' }}>Or leave your Message!</h3>
-
+        <NotificationContainer />
         <Grid>
           <Cell col={6} style={{ margin: 'auto', marginTop: '1.2em' }}>
             <Form
@@ -108,6 +142,7 @@ class Formulario extends Component {
                 ripple
                 type="submit"
                 style={{ float: 'right', marginTop: '15px' }}
+                onClick={this.createNotification('success')}
               >
                 Submit
               </Button>

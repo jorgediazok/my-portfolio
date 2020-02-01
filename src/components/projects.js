@@ -108,20 +108,260 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is Angular</h1>
+        <div className="projects-grid">
+          {/*Project 1*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 2*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 3*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/jorgediazok/todo-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', color: 'blue' }}
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>This is VueJS</h1>
+        <div className="projects-grid">
+          {/*Project 1*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 2*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 3*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/jorgediazok/todo-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', color: 'blue' }}
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <div>
-          <h1>This is MongoDB</h1>
+        <div className="projects-grid">
+          {/*Project 1*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 2*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*Project 3*/}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background:
+                  'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>
+              ToDo List - Proyecto realizado enteramente con React y Firebase.
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/jorgediazok/todo-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', color: 'blue' }}
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
