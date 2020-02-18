@@ -56,7 +56,7 @@ class Formulario extends Component {
           NotificationManager.info('Info message');
           break;
         case 'success':
-          NotificationManager.success('Success ', 'Thx for the email dude');
+          NotificationManager.success('Success ', 'Thx for your message');
           break;
         case 'warning':
           NotificationManager.warning(

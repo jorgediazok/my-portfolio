@@ -17,9 +17,9 @@ class Contact extends Component {
             <p style={{ width: '75%', margin: 'auto', paddingTop: '2em' }}>
               I am a Full Stack Web Developer based in Buenos Aires, Argentina.
               I have been studying and working in personal projects during the
-              last 2 years and now i am looking for a stable job in a company
-              where i can develop myself both as a professional and as a creator
-              of contents.
+              last year and now i am looking for a stable job in a company where
+              i can develop myself both as a professional and as a creator of
+              contents.
             </p>
           </Cell>
           <Cell col={6}>

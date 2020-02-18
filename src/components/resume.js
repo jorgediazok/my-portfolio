@@ -32,10 +32,10 @@ class Resume extends Component {
                 }}
               />
               <p>
-                I am looking for my first job as a web developer. During the
-                last two years i had been studying hard different programming
-                languages and building my own projects. I would like to work in
-                a company that values the compromise but also the creativity
+                I am looking for a position as web developer. During the last
+                year i had been studying different programming languages and
+                building my own projects. I would like to work in a company that
+                values the compromise but also the creativity
               </p>
               <hr
                 style={{
@@ -44,7 +44,7 @@ class Resume extends Component {
                 }}
               />
               <h5>Address</h5>
-              <p>Luis Braille 1764, Florencio Varela, Buenos Aires</p>
+              <p>Peru 1088, San Telmo, Buenos Aires</p>
               <h5>Phone</h5>
               <p>(+549) 1136494908</p>
               <h5>Email</h5>
