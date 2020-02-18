@@ -13,10 +13,10 @@ class LandingPage extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Front End Web Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | Javascript | React | MySQL | Express |
+                HTML5 | CSS | Bootstrap | Javascript | React | Redux | Sass |
                 NodeJS | MongoDB
               </p>
               <div className="social-links">

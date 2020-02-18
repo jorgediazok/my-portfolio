@@ -15,8 +15,8 @@ class Contact extends Component {
               style={{ height: '250px' }}
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '2em' }}>
-              I am a Full Stack Web Developer based in Buenos Aires, Argentina.
-              I have been studying and working in personal projects during the
+              I am a Front End Web Developer based in Buenos Aires, Argentina. I
+              have been studying and working in personal projects during the
               last year and now i am looking for a stable job in a company where
               i can develop myself both as a professional and as a creator of
               contents.
