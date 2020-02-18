@@ -83,14 +83,14 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Experience</h2>
             <Experience
-              startYear={2018}
-              endYear={2012}
+              startYear={2012}
+              endYear={2018}
               jobName="Rec Hospi Agrupación"
               jobDescription="Processing into a database information from all the public hospitals in Buenos Aires."
             />
             <Experience
-              startYear={2011}
-              endYear={2008}
+              startYear={2008}
+              endYear={2011}
               jobName="IFR Monitoring Enterprise"
               jobDescription="Marketing research company."
             />
@@ -98,9 +98,11 @@ class Resume extends Component {
             <h2>Skills</h2>
             <Skills skill="HTML5" progress={100} />
             <Skills skill="CSS3" progress={100} />
-            <Skills skill="Javascript" progress={100} />
-            <Skills skill="MySQL" progress={100} />
+            <Skills skill="Bootstrap" progress={100} />
+            <Skills skill="Sass" progress={90} />
+            <Skills skill="Javascript" progress={90} />
             <Skills skill="React JS" progress={80} />
+            <Skills skill="Redux" progress={60} />
             <Skills skill="Node JS" progress={60} />
             <Skills skill="MongoDB" progress={60} />
           </Cell>

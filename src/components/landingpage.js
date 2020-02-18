@@ -44,14 +44,6 @@ class LandingPage extends Component {
                 >
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
                 </a>
-                {/*Youtube*/}
-                <a
-                  href="http://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
-                </a>
               </div>
             </div>
           </Cell>
