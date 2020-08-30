@@ -5,7 +5,7 @@ import firebase from '../config/fire';
 
 import {
   NotificationContainer,
-  NotificationManager
+  NotificationManager,
 } from 'react-notifications';
 
 import 'react-notifications/lib/notifications.css';
@@ -16,40 +16,40 @@ class Formulario extends Component {
     email: '',
     country: '',
     phone: '',
-    message: ''
+    message: '',
   };
 
-  handleNameChange = e => {
+  handleNameChange = (e) => {
     this.setState({
-      name: e.target.value
+      name: e.target.value,
     });
   };
 
-  handleEmailChange = e => {
+  handleEmailChange = (e) => {
     this.setState({
-      email: e.target.value
+      email: e.target.value,
     });
   };
 
-  handleCountryChange = e => {
+  handleCountryChange = (e) => {
     this.setState({
-      country: e.target.value
+      country: e.target.value,
     });
   };
 
-  handlePhoneChange = e => {
+  handlePhoneChange = (e) => {
     this.setState({
-      phone: e.target.value
+      phone: e.target.value,
     });
   };
 
-  handleTextChange = e => {
+  handleTextChange = (e) => {
     this.setState({
-      message: e.target.value
+      message: e.target.value,
     });
   };
 
-  createNotification = type => {
+  createNotification = (type) => {
     return () => {
       switch (type) {
         case 'info':
@@ -70,16 +70,17 @@ class Formulario extends Component {
             alert('callback');
           });
           break;
+        default:
       }
     };
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     e.target.reset();
 
     const db = firebase.database().ref('usuario');
-    db.set(this.state).then(resultado => console.log(resultado));
+    db.set(this.state).then((resultado) => console.log(resultado));
   };
 
   render() {

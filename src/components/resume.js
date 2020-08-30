@@ -12,13 +12,13 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: 'left' }}>
               <img
-                src="https://scontent-eze1-1.xx.fbcdn.net/v/t31.0-8/s960x960/15443012_10154782079168670_6329048717204127835_o.jpg?_nc_cat=101&_nc_ohc=ZaJ4T914NC8AX_rQpBh&_nc_ht=scontent-eze1-1.xx&oh=9e2e46ed0b40c099b369e38e3c27edd4&oe=5E9A0387"
+                src="https://avatars1.githubusercontent.com/u/47897689?s=460&u=0bb395d093ce35cd806306d0c62b1d86aebfbaa1&v=4"
                 alt="avatar"
                 style={{
                   height: '210px',
                   width: '210px',
                   marginLeft: '120px',
-                  borderRadius: '160px'
+                  borderRadius: '160px',
                 }}
               />
               <h2 style={{ paddingTop: '0.4em', textAlign: 'center' }}>
@@ -28,7 +28,7 @@ class Resume extends Component {
               <hr
                 style={{
                   borderTop: '3px solid #833fb2',
-                  width: '50%'
+                  width: '50%',
                 }}
               />
               <p>
@@ -40,7 +40,7 @@ class Resume extends Component {
               <hr
                 style={{
                   borderTop: '3px solid #833fb2',
-                  width: '50%'
+                  width: '50%',
                 }}
               />
               <h5>Address</h5>
@@ -54,7 +54,7 @@ class Resume extends Component {
               <hr
                 style={{
                   borderTop: '3px solid #833fb2',
-                  width: '50%'
+                  width: '50%',
                 }}
               />
             </div>
