@@ -10,7 +10,7 @@ class LandingPage extends Component {
             <img
               src="http://www.dreamingbytes.com/wp-content/uploads/2014/09/dott.jpg"
               alt="avatar"
-              className="avatar-img"
+              className="avatar-img animate__animated animate__bounceInDown"
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
